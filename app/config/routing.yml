@@ -1,0 +1,21 @@
+engine:
+    resource: "@EngineBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+article:
+    resource: "@ArticleBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+schedule:
+    resource: "@ScheduleBundle/Resources/config/routing.yml"
+    prefix:   /
+
+book:
+    resource: "@BookBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
