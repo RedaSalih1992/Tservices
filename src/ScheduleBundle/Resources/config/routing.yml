@@ -1,3 +1,0 @@
-schedule_homepage:
-    path:     /
-    defaults: { _controller: ScheduleBundle:Default:index }
